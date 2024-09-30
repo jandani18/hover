@@ -1,0 +1,45 @@
+/* .show:Luggage .hide {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(14, 8, 8);
+    position: relative;
+    
+}
+
+.hide {
+     display: none; 
+} */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        background-color: white;
+        height: 30px;
+        padding: 10px;
+        display: flex;
+        gap: 50px;
+    }
+
+   
+.main {
+    display: flex;
+    gap: 20px;
+} 
+.main img{
+    height: 400%;
+    gap: 40%;
+  
+}
+.main img a{
+   
+   margin-left: 20px;
+  
+}
+.show1{
+    display: inline-block;
+}
+.show2{
+    display: flex;
+}
